@@ -80,7 +80,7 @@ CFLAGS="$CFLAGS $CPU_OPT"
 
 # warnings
 
-CFLAGS="$CFLAGS -W4"
+CFLAGS="$CFLAGS -W3"
 
 # stop on warning
 CFLAGS="$CFLAGS -WX"
@@ -114,9 +114,9 @@ fi
 
 
 # MSVC 2005 supports C99 variadic macros
-if [ "$ngx_msvc_ver" -ge 14 ]; then
+#if [ "$ngx_msvc_ver" -ge 14 ]; then
     have=NGX_HAVE_C99_VARIADIC_MACROS . auto/have
-fi
+#fi
 
 
 # precompiled headers

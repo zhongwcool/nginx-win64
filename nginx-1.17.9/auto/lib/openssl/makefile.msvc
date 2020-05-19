@@ -6,13 +6,13 @@
 all:
 	cd $(OPENSSL)
 
-	perl Configure VC-WIN32 no-shared				\
+	perl Configure VC-WIN64A no-shared				\
 		--prefix="%cd%/openssl" 				\
 		--openssldir="%cd%/openssl/ssl" 			\
 		$(OPENSSL_OPT)
 
-	if exist ms\do_ms.bat (						\
-		ms\do_ms						\
+	if exist ms\do_win64a.bat (					\
+		ms\do_win64a						\
 		&& $(MAKE) -f ms\nt.mak					\
 		&& $(MAKE) -f ms\nt.mak install				\
 	) else (							\

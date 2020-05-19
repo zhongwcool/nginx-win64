@@ -4,7 +4,7 @@
 　　　　　　　　——中科大胡不归
 
 ### 0、编译环境
-#####安装 Visual Studio 2019 community
+##### 安装 Visual Studio 2019 community
 官网下载，安装是勾选C++编译功能模块。
 
 ##### 安装 msys2
@@ -35,6 +35,7 @@ git clone https://github.com/arut/nginx-rtmp-module.git
 下载完成，将源码解压到同级目录，参考：
 
 .
+
 ├── nginx-1.17.9
 
 ├── zlib-1.2.11
@@ -52,20 +53,20 @@ git clone https://github.com/arut/nginx-rtmp-module.git
 
 ```text
 	perl Configure VC-WIN32 no-shared				\
-		--prefix="%cd%/openssl" 				\
+		--prefix="%cd%/openssl" 				    \
 		--openssldir="%cd%/openssl/ssl" 			\
 		$(OPENSSL_OPT)
 
-	if exist ms\do_ms.bat (						\
-		ms\do_ms					\
+	if exist ms\do_ms.bat (						    \
+		ms\do_ms					                \
  修改为：
 	perl Configure VC-WIN64A no-shared				\
-		--prefix="%cd%/openssl" 				\
+		--prefix="%cd%/openssl" 				    \
 		--openssldir="%cd%/openssl/ssl" 			\
 		$(OPENSSL_OPT)
 
-	if exist ms\do_win64a.bat (						\
-		ms\do_win64a						\
+	if exist ms\do_win64a.bat (					    \
+		ms\do_win64a						        \
 ```
 
 ##### 修改2：
