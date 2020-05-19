@@ -1,4 +1,4 @@
-# 编译64位nginx for windows
+# [编译64位nginx for windows](https://www.jianshu.com/p/9b4d41905ee6)
 
 >为建立中文知识库加块砖
 　　　　　　　　——中科大胡不归
