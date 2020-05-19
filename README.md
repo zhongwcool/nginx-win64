@@ -148,9 +148,9 @@ nmake -f objs/Makefile
 ### 4、 打包发布
 nginx.exe运行依赖同级目录下存在conf、html、logs、temp目录及配置文件，否则无法启动。
 
-1、[Nginx配置包](https://pan.baidu.com/s/12K3PTZTDTi75fRAoY6ggPA) 提取码：qjrb
+1、[Nginx配置包](https://pan.baidu.com/s/1x8rRE-c7NgjhG_Rff6Brkg) 提取码：ca0z
 
-2、[Nginx with rtmp配置包](https://pan.baidu.com/s/1dEHrIaCmCbryz6noS6HP5w) 提取码：yxup
+2、[Nginx with rtmp配置包](https://pan.baidu.com/s/14Pyl1jghdPScYsHCLC8uig) 提取码：fp3x
 
 ### 参考文章：
 1、 [windows编译64位nginx](https://blog.csdn.net/u010505059/article/details/92661913)
