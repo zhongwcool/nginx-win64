@@ -13,8 +13,8 @@ SHLIB_MAJOR=1
 SHLIB_MINOR=0.0
 SHLIB_EXT=
 PLATFORM=VC-WIN64A
-OPTIONS=--prefix=C:\Users\Alex\Desktop\work\openssl-1.0.2u/openssl --openssldir=C:\Users\Alex\Desktop\work\openssl-1.0.2u/openssl/ssl no-asm no-ec_nistp_64_gcc_128 no-gmp no-jpake no-krb5 no-libunbound no-md2 no-rc5 no-rfc3779 no-sctp no-shared no-ssl-trace no-ssl2 no-store no-unit-test no-weak-ssl-ciphers no-zlib no-zlib-dynamic
-CONFIGURE_ARGS=VC-WIN64A no-shared --prefix=C:\Users\Alex\Desktop\work\openssl-1.0.2u/openssl --openssldir=C:\Users\Alex\Desktop\work\openssl-1.0.2u/openssl/ssl no-asm
+OPTIONS=--prefix=C:\Users\Alex\Desktop\work\nginx-1.17.9\objs\lib\openssl-1.0.2u/openssl --openssldir=C:\Users\Alex\Desktop\work\nginx-1.17.9\objs\lib\openssl-1.0.2u/openssl/ssl no-asm no-ec_nistp_64_gcc_128 no-gmp no-jpake no-krb5 no-libunbound no-md2 no-rc5 no-rfc3779 no-sctp no-shared no-ssl-trace no-ssl2 no-store no-unit-test no-weak-ssl-ciphers no-zlib no-zlib-dynamic
+CONFIGURE_ARGS=VC-WIN64A no-shared --prefix=C:\Users\Alex\Desktop\work\nginx-1.17.9\objs\lib\openssl-1.0.2u/openssl --openssldir=C:\Users\Alex\Desktop\work\nginx-1.17.9\objs\lib\openssl-1.0.2u/openssl/ssl no-asm
 SHLIB_TARGET=
 
 # HERE indicates where this Makefile lives.  This can be used to indicate
@@ -26,10 +26,10 @@ HERE=.
 # for, say, /usr/ and yet have everything installed to /tmp/somedir/usr/.
 # Normally it is left empty.
 INSTALL_PREFIX=
-INSTALLTOP=C:\Users\Alex\Desktop\work\openssl-1.0.2u/openssl
+INSTALLTOP=C:\Users\Alex\Desktop\work\nginx-1.17.9\objs\lib\openssl-1.0.2u/openssl
 
 # Do not edit this manually. Use Configure --openssldir=DIR do change this!
-OPENSSLDIR=C:\Users\Alex\Desktop\work\openssl-1.0.2u/openssl/ssl
+OPENSSLDIR=C:\Users\Alex\Desktop\work\nginx-1.17.9\objs\lib\openssl-1.0.2u/openssl/ssl
 
 # NO_IDEA - Define to build without the IDEA algorithm
 # NO_RC4  - Define to build without the RC4 algorithm

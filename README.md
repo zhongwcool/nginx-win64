@@ -49,7 +49,10 @@ git clone https://github.com/arut/nginx-rtmp-module.git
 ### 2、编译配置
 
 ##### 修改1：
-编辑nginx\auto\lib\openssl\makefile.msvc文件：找到“VC-WIN32”替换为“VC-WIN64A”，“if exist ms\do_ms.bat”替换为“if exist ms\do_win64a.bat”，“ms\do_ms”替换为“ms\do_win64a”。
+编辑nginx\auto\lib\openssl\makefile.msvc文件：
+- 找到“VC-WIN32”替换为“VC-WIN64A”
+- “if exist ms\do_ms.bat”替换为“if exist ms\do_win64a.bat”
+- “ms\do_ms”替换为“ms\do_win64a”
 
 ```text
 	perl Configure VC-WIN32 no-shared				\
